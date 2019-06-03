@@ -1,5 +1,5 @@
 import Test.HUnit
-import TA
+--import TA
 main = do
   runTestTT tests
   print $ "test end"
