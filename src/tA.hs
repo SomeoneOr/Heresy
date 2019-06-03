@@ -1,4 +1,4 @@
-
+{-# LANGUAGE DoAndIfThenElse #-}
 module TA where
 import Text.Read
 ang1 (x1,y1) (x2,y2) l (x,y) (ex,ey)= 
@@ -49,9 +49,9 @@ sec sx sy fx fy anx1 any1 anx2 any2= do
                                   Just ay2 -> do
                                     if x > a || x < 0 || y > a || y <0 || ex > a || ex <0 || ey > a|| ey <0 || ax1 > a || ax1 < 0 || ay1 > a || ay1 < 0 || ax2 > a || ax2 <0 || ay2 >a || ay2 <0 then return(False,[]) else do
                                       let up = ang1 (ax1,ay1) (ax2,ay2) [] (x,y) (ex,ey)
-                                      if up == [] then 
+                                      if up == [] then do
                                         return (True,[])
-                                      else
+                                      else do
                                         return (True,sommonheresy [[(x,y)]] up (ex,ey))
                                   Nothing -> return(False,[])
                               Nothing -> return(False,[])

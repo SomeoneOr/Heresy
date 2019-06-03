@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "C:\\Users\\ThinkPad T430\\AppData\\Roaming\\cabal\\bin"
-libdir     = "C:\\Users\\ThinkPad T430\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.2.1\\tA-0.1.0.0-2qeWzSxpul9AsvYw5gOegw-test"
-dynlibdir  = "C:\\Users\\ThinkPad T430\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.2.1"
-datadir    = "C:\\Users\\ThinkPad T430\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.2.1\\tA-0.1.0.0"
-libexecdir = "C:\\Users\\ThinkPad T430\\AppData\\Roaming\\cabal\\tA-0.1.0.0-2qeWzSxpul9AsvYw5gOegw-test\\x86_64-windows-ghc-8.2.1\\tA-0.1.0.0"
-sysconfdir = "C:\\Users\\ThinkPad T430\\AppData\\Roaming\\cabal\\etc"
+bindir     = "C:\\Users\\phoenix\\AppData\\Roaming\\cabal\\bin"
+libdir     = "C:\\Users\\phoenix\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.6.5\\tA-0.1.0.0-5GYSsl58fQf1SSW1Wp8mSQ-test"
+dynlibdir  = "C:\\Users\\phoenix\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.6.5"
+datadir    = "C:\\Users\\phoenix\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.6.5\\tA-0.1.0.0"
+libexecdir = "C:\\Users\\phoenix\\AppData\\Roaming\\cabal\\tA-0.1.0.0-5GYSsl58fQf1SSW1Wp8mSQ-test\\x86_64-windows-ghc-8.6.5\\tA-0.1.0.0"
+sysconfdir = "C:\\Users\\phoenix\\AppData\\Roaming\\cabal\\etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "tA_bindir") (\_ -> return bindir)
