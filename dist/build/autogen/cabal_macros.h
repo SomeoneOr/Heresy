@@ -11,17 +11,6 @@
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_tA */
 
-/* package HUnit-1.6.0.0 */
-#ifndef VERSION_HUnit
-#define VERSION_HUnit "1.6.0.0"
-#endif /* VERSION_HUnit */
-#ifndef MIN_VERSION_HUnit
-#define MIN_VERSION_HUnit(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  6 || \
-  (major1) == 1 && (major2) == 6 && (minor) <= 0)
-#endif /* MIN_VERSION_HUnit */
-
 /* package base-4.12.0.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.12.0.0"
