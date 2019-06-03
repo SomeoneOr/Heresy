@@ -16,8 +16,8 @@ extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
 
 library
-  --exposed-modules:     TA
-  other-modules:       TA
+  exposed-modules:     TA
+  --other-modules:       TA
   -- other-extensions:
   build-depends:       base 
   hs-source-dirs:      src
