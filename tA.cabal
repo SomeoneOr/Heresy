@@ -13,7 +13,7 @@ author:              phoenixterran
 -- category:
 build-type:          Simple
 extra-source-files:  ChangeLog.md
-cabal-version:       >=1.10
+--cabal-version:       >=1.10
 
 library
   exposed-modules:     TA
