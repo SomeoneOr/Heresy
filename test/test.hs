@@ -1,5 +1,5 @@
 import Test.HUnit
---import TA
+
 main = do
   st
   runTestTT tests
